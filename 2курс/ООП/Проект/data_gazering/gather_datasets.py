@@ -12,8 +12,8 @@ total_data = {'features': [], 'predict': []}
 streak = 0
 max_streak = 0
 previous_code = df.at[0, 'SECID']
-data_length = 300
-data_test_length = 25
+data_length = 100
+data_test_length = 7
 
 start_counting_time = datetime.datetime.now()
 
